@@ -1,7 +1,7 @@
 #LoadProgressWebView
 ===============
 
-easy get webview loading progress.
+inheritance class of UIWebView. easy get webview loading progress.
 
 ## Screenshot
 ![screenshot](https://github.com/kenzan8000/LoadProgressWebView/raw/master/screenshot/screenshot01.png)
