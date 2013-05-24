@@ -17,6 +17,7 @@
 		42529397174F107C0020AD39 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42529396174F107C0020AD39 /* Default@2x.png */; };
 		42529399174F107C0020AD39 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42529398174F107C0020AD39 /* Default-568h@2x.png */; };
 		4252939C174F107C0020AD39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4252939B174F107C0020AD39 /* ViewController.m */; };
+		425293C7174F38CF0020AD39 /* LoadProgressWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 425293C6174F38CF0020AD39 /* LoadProgressWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		42529398174F107C0020AD39 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4252939A174F107C0020AD39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4252939B174F107C0020AD39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		425293C5174F38CF0020AD39 /* LoadProgressWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadProgressWebView.h; sourceTree = "<group>"; };
+		425293C6174F38CF0020AD39 /* LoadProgressWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadProgressWebView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +57,7 @@
 		42529376174F107C0020AD39 = {
 			isa = PBXGroup;
 			children = (
+				425293C4174F38CF0020AD39 /* WebResourceLoadProgress */,
 				42529388174F107C0020AD39 /* LoadProgressWebViewDemo */,
 				42529381174F107C0020AD39 /* Frameworks */,
 				42529380174F107C0020AD39 /* Products */,
@@ -102,6 +106,16 @@
 				42529398174F107C0020AD39 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		425293C4174F38CF0020AD39 /* WebResourceLoadProgress */ = {
+			isa = PBXGroup;
+			children = (
+				425293C5174F38CF0020AD39 /* LoadProgressWebView.h */,
+				425293C6174F38CF0020AD39 /* LoadProgressWebView.m */,
+			);
+			name = WebResourceLoadProgress;
+			path = ../LoadProgressWebView/Classes/WebResourceLoadProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +186,7 @@
 				4252938F174F107C0020AD39 /* main.m in Sources */,
 				42529393174F107C0020AD39 /* AppDelegate.m in Sources */,
 				4252939C174F107C0020AD39 /* ViewController.m in Sources */,
+				425293C7174F38CF0020AD39 /* LoadProgressWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +301,7 @@
 				425293A4174F107C0020AD39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
